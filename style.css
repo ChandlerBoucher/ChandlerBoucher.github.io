@@ -1,68 +1,93 @@
-body {
-    background-color: #FFFFFF;
-    color: #373737;
-    text-align: center;
-    margin: 40px 150px 0;
-    font-family: Verdana, Geneva, sans-serif;
+document {
+    font-family: 'Raleway', sans-serif;
 }
 
-header {
-    padding: 50px;
-    background-color: #F4F4F4;
-
-    border-radius: 100px;
-
-    color: #C0B283;
-    font-family: Impact, Charcoal, sans-serif;
-    margin-bottom: 120px;
+#page {
+    background-color: #D3D3D3;
 }
 
-header h1 {
-    font-size: 4em;
-    margin: 0;
+#navHeader .navbar-toggle .icon-bar {
+    background-color: #FFF;
 }
 
-header h2 {
-    margin-top: 5px;
+.jumbotron {
+    position: relative;
+    left: 15%;
+    width: 70%;
 }
 
-header div.image-holder {
-    height: 50px;
+#about .jumbotron {
+    background-color: rgba(0, 0, 0, 0.46);
+    color: #FFF;
 }
-header div img {
-    height: 200px;
+
+#portfolio .jumbotron {
+    background-color: #26a69a;
+}
+
+#contact .jumbotron {
+    background-color: rgba(0, 0, 0, 0.46);
+    color: #FFF;
+}
+
+#navBottom {
+    background-color: #26a69a;
+}
+
+#navHeader {
+    background-color: #26a69a;
+    margin: 0px;
+}
+
+    #navHeader a {
+        color: #FFF;
+        font-size: 24px;
+        padding-right: 50px;
+    }
+
+#navigator {
+    background-color: #26a69a;
+}
+
+#about .jumbotron h1 {
+    border-bottom: solid;
+}
+
+#about .jumbotron p {
+    display: inline-block;
+}
+
+#about .jumbotron img {
+    width: 35%;
     border-radius: 50%;
 }
 
-nav {
-    margin: 15px 0;
+#message {
+    border: none;
+    border-bottom: 1px #A0A0A0 solid;
 }
 
-nav a {
-    padding: 0.5em;
-    border: 1px solid #C0B283;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1.25em;
-    color: #C0B283;
+#navBottom a {
+    margin-left: 55px;
+    border-radius: 50%;
+    padding: 10px;
 }
 
-nav a:hover {
-    color: #DCD0C0;
-    background-color: #C0B283;
+#linkedInImg img {
+    height: 48px;
+    position: relative;
+    bottom: 8px;
 }
 
-section p, section ul {
-    margin: 0.5em auto;
-    text-align: left;
-    line-height: 1.5em;
-    padding: 1em 3em;
+#free-code-camp img {
+    height: 32px;
 }
 
-footer {
-    background-color: #373737;
-    color: #C0B283;
-    font-family: 'Courier New', monospace;
-    font-size: 2em;
-    margin-bottom: 0;
+#codepen-img svg {
+    height: 36px;
+    width: 36px;
+}
+
+#copy-foot p {
+    text-align: right;
 }
